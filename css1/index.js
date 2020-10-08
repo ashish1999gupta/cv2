@@ -10,7 +10,7 @@ var random2=Math.random();
 random2=random2*6;
 random2=Math.floor(random2);
 random2++;
-document.querySelectorAll(".img")[0].setAttribute("src","images/dice"+random2+".png");
+document.querySelectorAll(".img")[1].setAttribute("src","images/dice"+random2+".png");
 if(random1>=random2){
   document.querySelector("h1").innerHTML= "Player 1 Wins";
 }
